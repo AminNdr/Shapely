@@ -1,0 +1,35 @@
+@media (min-width:576px) {
+    html{
+        font-size:15px;
+    }
+    .single-project-container{
+        width:100%;
+    }
+}
+
+@media (min-width:768px){
+    .single-project-container{
+        width:50%;
+    }
+    .left-col{
+        width:40%;
+    }
+    .right-col{
+        width:40%;
+    }
+    .button-purple-w{
+        width: 25%;
+    }
+    
+}
+
+
+@media(min-width:992px){
+    .single-project-container{
+        width:25%;
+    }
+   .main-navigation{
+       position: fixed;
+       z-index:1;
+   }
+}
