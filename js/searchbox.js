@@ -18,9 +18,9 @@ function ShowHide() {
         searchBox.style.visibility = 'visible';
         searchBox.value = '';
         searchButton.className = "fas fa-times text-primary";
-        console.log('true');
-    } else { 
-        console.log('false');
+
+    } else {
+
         searchBox.style.visibility = 'hidden';
         searchButton.className = "fas fa-search text-primary";
 
