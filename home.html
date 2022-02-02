@@ -20,7 +20,8 @@
 </head>
 
 <body>
-    <section class="main-navigation themeArea">
+    
+    <section class="main-navigation themeArea lightArea">
         <div class="container">
             <div class="row align-items-center py-4">
 
@@ -68,12 +69,20 @@
 
                         <li class="nav-item"><a href="#">SHOP</a></li>
 
-                            <form id='themeSelector' style="display: inline;">
+                            <!-- <form id='themeSelector' style="display: inline;">
                             <label for="light">L</label>
                             <input type="radio" name="theme" value="light" checked>
                             <label for="dark">D</label>
                             <input type="radio" name="theme" value="dark">
-                            </form>
+                            </form> -->
+
+                            <label class="switch">
+                                <input type="checkbox" id ='themeCheckBox' onclick="changeTheme()">
+                                <span class="slider round"></span>
+                              </label>
+                              
+
+
 
                     </ul>
 
@@ -113,7 +122,7 @@
         </div>
     </section>
 
-    <section class="seo pt-4 pb-3 themeArea">
+    <section class="seo pt-4 pb-3 themeArea lightArea">
         <div class="container-md">
             <div class="seo-container d-flex flex-column flex-md-row justify-content-around">
                 <div class="left-col seo-left-col mb-3">
@@ -129,7 +138,7 @@
             </div>
         </div>
     </section>
-    <section class="portfolio themeArea">
+    <section class="portfolio themeArea lightArea">
         <div class="container-md">
             <div class="portfolio-container d-flex flex-column flex-md-row justify-content-around pt-5">
                 <div class="left-col">
@@ -158,7 +167,7 @@
             </div>
         </div>
     </section>
-    <section class="limitless pt-5 themeArea">
+    <section class="limitless pt-5 themeArea lightArea">
         <div class="container d-flex align-items-center flex-column  px-0 px-md-5">
             <h1 class=" mb-5 ">Limitless Options</h1>
             <p class=" mb-5 mx-3 limitless-desc">Phasellus sed nisi ac dui interdum semper. Etiam consequat
@@ -172,7 +181,7 @@
     </section>
 
 
-    <section class="latest text-center">
+    <section class="latest text-center darkArea">
         <div class="container-fluid p-0">
             <h1 class="section-title text-white py-4">Our Latest Projects</h1>
             <p class="section-desc text-white py-4">Here is our latest projects. You'll love them.</p>
@@ -245,9 +254,9 @@
             <img class="rounded-circle" src="img/customer1.jpg" alt="">
         </div>
     </section>
-    <section class="clients">
+    <section class="clients lightArea">
         <div class="container text-center">
-            <h1 class="section-title my-5">Our Main Clients</h1>
+            <h1 class="section-title py-5">Our Main Clients</h1>
             <div class="logo-container d-flex justify-content-around">
                 <img class="" src="img/html-logo.webp" alt="">
                 <img class="" src="img/less-logo.webp" alt="">
@@ -256,14 +265,14 @@
         </div>
     </section>
 
-    <section class="download themeArea">
+    <section class="download themeArea lightArea">
         <div class="container-md text-center d-md-flex justify-content-lg-between">
             <h1 class="secttion-title fs-2 mb-3 d-md-inline">Do you like this awesome Wordpress theme?</h1>
             <button class="button-purple button-purple-w">Download Now</button>
         </div>
     </section>
 
-    <footer class="footer d-flex justify-content-around p-5">
+    <section class="footer d-flex justify-content-around p-5 darkArea">
         <div class="footer-text">
             <p class="d-inline">Theme by <span>Colorlib</span></p>
             <p class="d-inline"></p>Powered by <span>Wordpress</span></p>
@@ -275,7 +284,7 @@
             <i class="fab fa-youtube px-1 text-white"></i>
             <i class="fab fa-instagram px-1 text-white"></i>
         </div>
-    </footer>
+    </section>
 
     <button id='scrollBtn'>Top</button>
 
