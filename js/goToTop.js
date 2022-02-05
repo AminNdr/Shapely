@@ -7,10 +7,10 @@ let scrollTop = () => {
 
 
 
-
 let showHideBtn = () => {
     let y = window.scrollY;
-    if (y > 500) {
+    let z = Math.floor (document.body.scrollHeight / 2); 
+    if (y > z) {
          btn.style.visibility = "visible";
     }else {
         btn.style.visibility = "hidden";

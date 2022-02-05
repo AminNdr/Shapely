@@ -32,13 +32,12 @@
 
 let areas = document.querySelectorAll("section.themeArea");
 let lightAreas = document.querySelectorAll('section.lightArea');
-let darkAreas = document.querySelectorAll('section.darkArea');
+// let darkAreas = document.querySelectorAll('section.darkArea');
 let themeCheckBox = document.getElementById('themeCheckBox');
 
 
 function changeTheme() {
 
-    
         
         for(let i = 0 ; i < lightAreas.length ; i++){
            
@@ -46,18 +45,13 @@ function changeTheme() {
 
 
             lightAreas[i].style.backgroundColor = '#0e1015';
+            
            
             }   else {
                 lightAreas[i].style.backgroundColor = '#fff';
             }
        
-        }
-
-
-    
-
-  
-
+        }  
 }
 
 
